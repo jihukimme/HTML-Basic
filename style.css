@@ -1,0 +1,60 @@
+.color-primary {
+  color: red;
+}
+
+.font-50 {
+  font-size: 50px;
+}
+
+.select-style {
+  height: 40px;
+  font-size: 20px;
+  color: aqua;
+}
+
+/* 선택자 { 
+    color: red;
+    padding: 5px;
+    속성: 속성값;
+    선언;
+} */
+
+/* 전체 선택자
+* {
+
+} */
+
+/* 태그 선택자
+p {
+
+} */
+
+/* 클래스 선택자
+.class1 {
+
+} */
+
+/* id 선택자    */
+#id1 {
+  background: yellow;
+  color: darkgreen;
+}
+
+/* 자식 선택자 */
+.tb-head > tr > td {
+  border: 1px solid #000;
+  font-size: 14px;
+  font-weight: bold;
+  color: red;
+}
+
+.tb-body > tr > td {
+  border: 1px solid #000;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* 하위 선택자 */
+.tb td {
+  border: 1px solid #000;
+}
